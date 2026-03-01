@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variety Jewels | Elegant Stainless Jewelry</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ffffff, #f5e6b3);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid gold;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #b8860b;
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: #b8860b;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: black;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+                        url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #b8860b;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .btn {
+            background-color: gold;
+            padding: 12px 25px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .product {
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fffdf5;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #b8860b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Variety Jewels</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="about.html">About</a>
+</nav>
+
+<section class="hero">
+    <h2>Elegance in Every Detail</h2>
+    <p>Premium stainless jewelry crafted with beauty, strength, and timeless style.</p>
+    <button class="btn" onclick="location.href='product.html'">Shop Now</button>
+</section>
+
+<section class="section">
+    <h2 style="color:#b8860b;">Featured Collection</h2>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300" alt="Necklace">
+            <h3>Golden Necklace</h3>
+            <p>Rs 1500</p>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300" alt="Ring">
+            <h3>Elegant Ring</h3>
+            <p>Rs 800</p>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300" alt="Bracelet">
+            <h3>Luxury Bracelet</h3>
+            <p>Rs 1200</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background-color:#fff8dc;">
+    <h2 style="color:#b8860b;">About Variety Jewels</h2>
+    <p style="max-width:700px; margin:auto;">
+        Variety Jewels brings you high-quality stainless jewelry designed to last.
+        Our mission is to combine durability with elegance, giving you timeless
+        beauty at affordable prices.
+    </p>
+</section>
+
+<footer>
+    © 2026 Variety Jewels | All Rights Reserved
+</footer>
+
+</body>
+</html>
